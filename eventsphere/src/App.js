@@ -273,13 +273,24 @@ function AuthButton({ onLogin }) {
   );
 }
 
-// ----- LANGUAGE SELECTOR (STUB) -----
+/**
+ * PUBLIC_INTERFACE
+ * Language selector for the EventSphere UI.
+ * Now includes Tamil ("ta" - தமிழ்) as an option.
+ */
 function LangSelector({lang, setLang}) {
   return (
     <select
       value={lang}
-      onChange={e=>setLang(e.target.value)}
-      style={{background:'#1A73E8',color:'white',border:'none',borderRadius:4,padding:'7px 10px',fontWeight:500}}
+      onChange={e => setLang(e.target.value)}
+      style={{
+        background: '#1A73E8',
+        color: 'white',
+        border: 'none',
+        borderRadius: 4,
+        padding: '7px 10px',
+        fontWeight: 500
+      }}
       aria-label="Language selector"
     >
       <option value="en">EN</option>
@@ -287,6 +298,7 @@ function LangSelector({lang, setLang}) {
       <option value="fr">FR</option>
       <option value="hi">HI</option>
       <option value="zh">中文</option>
+      <option value="ta">தமிழ்</option>
     </select>
   );
 }

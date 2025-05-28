@@ -1,0 +1,33 @@
+{
+  // PUBLIC_INTERFACE
+  // Placeholder/initial translations for Tamil ("ta").
+  // Keys should match English keys in the final implementation.
+  "app": {
+    "title": "இவென்ட் ஸ்பியர்",
+    "welcome": "வரவேற்கிறோம்!",
+    "searchPlaceholder": "நிகழ்வுகள், இடங்கள், வகைகள்... தொடரவும் தேடு",
+    "featuredEvents": "சிறப்பான நிகழ்வுகள்",
+    "allEvents": "அனைத்து நிகழ்வுகள்",
+    "notifications": "அறிவிப்புகள்",
+    "userDashboard": "பயனர் டாஷ்போர்டு",
+    "adminDashboard": "நிர்வாகிகள் டாஷ்போர்ட்",
+    "signIn": "உள்நுழை",
+    "logout": "வெளியேறு",
+    "book": "பதிவு செய்க",
+    "seatMap": "இருப்பு வரைபடம்"
+  },
+  "events": {
+    "themeParks": "தீம் பார்க்கள்",
+    "sports": "விளையாட்டுகள்",
+    "movies": "திரைப்படங்கள்",
+    "concerts": "கச்சேரிகள்",
+    "travel": "பயணம்"
+  },
+  "common": {
+    "search": "தேடு",
+    "user": "பயனர்",
+    "admin": "நிர்வாகி",
+    "currency": "நாணயம்",
+    "language": "மொழி"
+  }
+}
